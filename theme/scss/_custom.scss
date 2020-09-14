@@ -1,0 +1,350 @@
+/*-------------------------------------------------------------------------------*/
+/*-------------------------- Blord - 2019-10-28 ---------------------------------*/
+/*-------------- This is some custom SCSS taken from the original ---------------*/
+/*----------- SCSS base (see skynet/dev/blord/Rxxx/Rxxx_2019-03-10) -------------*/
+/*---- It is used for some custom stuff in the course (not included in LOM) -----*/
+/*-------------------------------------------------------------------------------*/
+
+/*------------------------ DYK --------------------------*/
+@include breakpoint-gte("medium"){
+	.dyk-container {
+		display:block;
+		float:left;
+		width:25%;
+		height:40%;
+		margin-left:67%; 
+		position:absolute;
+		bottom:5%;
+	}
+	.dyk {
+		width: 100%;
+		height: 100%;
+		text-align: left;
+		display:block;
+		position: relative;
+
+		p {
+			margin-right:10%;
+			font-size:85%;
+			margin-left:10%;
+		}
+		h2 {
+			padding-left:30%;
+			margin-top:3%;
+		}
+		img {
+			margin-top:-9%;
+			width:50.25px;
+			height:49px;
+			position:relative;
+		}
+		hr {
+			margin-top: -7%;
+		}
+	}
+}
+
+@include breakpoint-lt("medium"){
+	.dyk{
+		p {
+			margin-right:10%;
+			font-size:85%;
+			margin-left:10%;
+		}
+		h2 {
+			padding-left:30%;
+			margin-top:3%;
+		}
+		img {
+			margin-top:-7%;
+			width:50.25px;
+			height:49px;
+			position:relative;
+		}
+		hr {
+			margin-top: -5%;
+		}
+	}
+}
+
+/*---------------------- Skewed images --------------------------*/
+.skewed-image{
+	position: relative;
+	transform: skewX(-20deg);
+	overflow: hidden;
+	height: 300px;
+	margin-top: 100px;
+
+	&:not(:last-child){
+		margin-right: 25px;
+	}
+	&.col-xs-4{
+		width: calc(33.3333333333% - 25px);
+	}
+	&.col-xs-3{
+		width: calc(25% - 25px);
+	}
+	img{
+		transform: skewX(20deg);
+		position: absolute;
+		bottom: 0;
+		left: -20%;
+		max-width: 150%;
+		width: 150%;
+	}
+}
+
+@include breakpoint-lt("xlarge"){
+	.skewed-image{
+		height: 250px;
+		
+		img{
+			max-width: 175%;
+			width: 175%;
+		}
+	}
+}
+
+@include breakpoint-lt("large"){
+	.skewed-image {
+		height: 225px;
+	}
+}
+
+@include breakpoint-lt("medium"){
+	.skewed-image{
+		height: 200px;
+		margin-top: 0;
+	}
+}
+
+@include breakpoint-lt("small"){
+	.skewed-image{
+		height: 120px;
+		margin-top: 0;
+		
+		img{
+			max-width: 200%;
+			width: 200%;
+		}
+	}
+}
+
+/*--------------------------- Modules interaction ----------------------------------*/
+main.with-modules #dynamic_content{
+	padding-bottom: 400px;
+	
+	@include breakpoint-lt("xlarge"){
+		padding-bottom: 450px;
+	}
+	@include breakpoint-lt("large"){
+		padding-bottom: 525px;
+	}
+	@include breakpoint-lt("medium"){
+		padding-bottom: 50px;
+	}
+}
+@include breakpoint-lt("medium"){
+	.modules-instruction{
+		display: none;
+	}
+}
+/*.modules{
+	position: absolute;
+	bottom: 1px;
+	left: 115px;
+	width: calc(70% - 15px);
+	
+	@include breakpoint-lt("medium"){
+		position: static;
+		width: auto;
+	}
+	
+	.module{
+		float: left;
+		font-size: 130px;
+		font-family: "Roboto Condensed";
+    	font-weight: normal;
+		line-height: 0.7;
+		cursor: pointer;
+		margin-left: 15px;
+		margin-top: 30px;
+		
+		-webkit-transition: all 0.3s;
+		-moz-transition: all 0.3s;
+		-o-transition: all 0.3s;
+		-ms-transition: all 0.3s;
+		transition: all 0.3s;
+		
+		@include breakpoint-gte("medium"){
+			&:focus{
+				outline: 1px dashed $blue-darker;
+			}
+			*:focus{
+				outline: 1px dashed $blue-darker;
+			}
+		}
+		@include breakpoint-lt("medium"){
+			display: none;
+		}
+		&:not(:last-child){
+			margin-right: 50px;
+		}
+		&:not(.active):not(.inactive){
+			color: $purple-darker;
+			position: relative;
+			
+			&:before{
+				content: "";
+				position: absolute;
+				left: calc(50% + 2px);
+				top: 25px;
+				bottom: 0px;
+				border: 0.5px solid $green;
+			}
+			&:after{
+				content: "";
+				position: absolute;
+				left: -15px;
+				top: -12px;
+				right: -15px;
+				bottom: 10px;
+				border-radius: 50%;
+				border: 1px solid $green-darker;
+			}
+		}
+		&.active{
+			color: $purple;
+		}
+		&.inactive{
+			color: $grey;
+			position: relative;
+			
+			&:before{
+				content: "";
+				position: absolute;
+				left: calc(50% + 2px);
+				top: 25px;
+				bottom: 0px;
+				border: 0.5px solid $grey;
+			}
+			&:after{
+				content: "";
+				position: absolute;
+				left: -15px;
+				top: -12px;
+				right: -15px;
+				bottom: 10px;
+				border-radius: 50%;
+				border: 1px solid $grey;
+			}
+		}
+	}
+	.modDesc{
+		height: 80px;
+		overflow: visible;
+		
+		-webkit-transition: opacity 0.3s;
+		-moz-transition: opacity 0.3s;
+		-o-transition: opacity 0.3s;
+		-ms-transition: opacity 0.3s;
+		transition: opacity 0.3s;
+		
+		@include breakpoint-lt("xlarge"){
+			height: 125px;
+		}
+		@include breakpoint-lt("large"){
+			height: 150px;
+		}
+		@include breakpoint-lt("medium"){
+			height: auto;
+			opacity: 1!important;
+			margin-top: 40px;
+		}
+		h2{
+			margin-top: 15px;
+			font-size: 30px;
+			position: relative;
+			
+			&:before{
+				content: "";
+				position: absolute;
+				left: -60px;
+				top: -22px;
+				width: 93px;
+				height: 93px;
+				border-radius: 50%;
+				border: 1px solid $green-darker;
+			}
+			&:after{
+				content: "";
+				position: absolute;
+				left: -13px;
+				top: 27px;
+				width: 0px;
+				border-left: 1px solid $green-darker;
+				
+				@include breakpoint-lt("medium"){
+					display: none;
+				}
+			}
+		}
+		p:last-child{
+			margin-bottom: 0;
+		}
+		&.mod1{
+			margin-left: 63px;
+			
+			@include breakpoint-lt("medium"){
+				margin-left: 63px;
+			}
+			
+			h2:after{
+				bottom: -242px;
+				
+				@include breakpoint-lt("xlarge"){
+					bottom: -377px;
+				}
+				@include breakpoint-lt("large"){
+					bottom: -452px;
+				}
+			}
+		}
+		&.mod2{
+			margin-left: 190px;
+			
+			@include breakpoint-lt("medium"){
+				margin-left: 63px;
+			}
+			
+			h2:after{
+				bottom: -147px;
+				
+				@include breakpoint-lt("xlarge"){
+					bottom: -237px;
+				}
+				@include breakpoint-lt("large"){
+					bottom: -287px;
+				}
+			}
+		}
+		&.mod3{
+			margin-left: 314px;
+			
+			@include breakpoint-lt("medium"){
+				margin-left: 63px;
+			}
+			
+			h2:after{
+				bottom: -52px;
+				
+				@include breakpoint-lt("xlarge"){
+					bottom: -97px;
+				}
+				@include breakpoint-lt("large"){
+					bottom: -123px;
+				}
+			}
+		}
+	}
+}*/

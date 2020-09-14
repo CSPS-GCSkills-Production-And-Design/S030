@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700|Roboto+Condensed:300,700,700i&display=swap');
+
+@font-face {
+	font-family: "Helvetica Neue Condensed";
+	src: url("fonts/Helvetica/HelveticaNeueLTStd-LtCn.ttf")format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Helvetica Neue Condensed";
+	src: url("fonts/Helvetica/HelveticaNeue-CondensedBold-08.ttf")format("truetype");
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Gotham";
+	src: url("fonts/Gotham/Gotham TrueType/Gotham-Book.ttf")format("truetype");
+	src: url("fonts/Gotham/Gotham-Book.eot")format("truetype"),
+		 url("fonts/Gotham/Gotham-Book.otf")format("opentype"),
+		 url("fonts/Gotham/Gotham-Book.woff")format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Gotham";
+	src: url("fonts/Gotham/Gotham-Medium.ttf")format("truetype");
+	src: url("fonts/Gotham/Gotham-Medium.eot")format("truetype"),
+		 url("fonts/Gotham/Gotham-Medium.otf")format("opentype"),
+		 url("fonts/Gotham/Gotham-Medium.woff")format("woff");
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Arial";
+	src: url("fonts/Arial/Arial.ttf")format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Arial";
+	src: url("fonts/Arial/Arial Bold.ttf")format("truetype");
+	font-weight: bold;
+	font-style: normal;
+}
