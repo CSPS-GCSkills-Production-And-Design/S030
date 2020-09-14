@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:timeBase="media" xmlns:tts="http://www.w3.org/ns/ttml#styling" xml:lang="en" xmlns:ttm="http://www.w3.org/ns/ttml#metadata">
+  <head>
+    <metadata>
+      <ttm:title></ttm:title>
+    </metadata>
+    <styling>
+      <style xml:id="s0" tts:backgroundColor="black" tts:fontStyle="normal" tts:fontSize="16px" tts:fontFamily="sansSerif" tts:color="white" />
+    </styling>
+    <layout>
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="start" xml:id="topLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="start" xml:id="centerLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="start" xml:id="bottomLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="center" xml:id="topCenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="center" xml:id="centerСenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="center" xml:id="bottomCenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="end" xml:id="topRight" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="end" xml:id="centerRight" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="end" xml:id="bottomRight" />
+    </layout>
+  </head>
+  <body style="s0">
+    <div xml:lang="en">
+      <p begin="0.0s" xml:id="p0" end="3.613s">Bonjour à tous, mon nom est Donald Roussel. <br />Je suis le sous-ministre</p>
+      <p begin="3.637s" xml:id="p1" end="6.833s">adjoint associé à la Sécurité et<br />à la sûreté à Transports Canada.</p>
+      <p begin="7.275s" xml:id="p2" end="11.155s">Transports Canada se réjouit de<br />lancer le cours d’apprentissage en ligne</p>
+      <p begin="11.879s" xml:id="p3" end="17.565s">« I-100, Initiation au système de<br />commandement des interventions ou SCI ».</p>
+      <p begin="17.651s" xml:id="p4" end="20.351s">Il s’agit d’un système<br />éprouvé et reconnu à</p>
+      <p begin="20.433s" xml:id="p5" end="23.013s">l’échelle internationale<br />qui facilite l’intervention</p>
+      <p begin="23.137s" xml:id="p6" end="25.928s">dans le contexte d’un<br />vaste éventail d’incident,</p>
+      <p begin="26.363s" xml:id="p7" end="28.775s">peu importe leur<br />envergure et leur complexité.</p>
+      <p begin="29.599s" xml:id="p8" end="32.621s">L’une des caractéristiques<br />distinctives du système</p>
+      <p begin="32.645s" xml:id="p9" end="34.719s">est sa normalisation<br />qui permet au personnel</p>
+      <p begin="34.743s" xml:id="p10" end="36.818s">de nombreuses<br />organisations d’intervenir de</p>
+      <p begin="36.842s" xml:id="p11" end="39.85s">manière concertée dans<br />le cadre d’un plan commun</p>
+      <p begin="40.707s" xml:id="p12" end="43.744s">au moyen d’une terminologie<br />uniformisée, d’une</p>
+      <p begin="44.245s" xml:id="p13" end="46.937s">compréhension commune<br />des rôles et des responsabilités</p>
+      <p begin="47.182s" xml:id="p14" end="50.082s">de chacun, ainsi que de<br />même processus visant</p>
+      <p begin="50.685s" xml:id="p15" end="53.485s">à répondre aux besoins<br />créé par l’incident.</p>
+      <p begin="53.522s" xml:id="p16" end="57.123s">Vous entendez peut-être souvent<br />dire que les employés de TC ne sont</p>
+      <p begin="57.213s" xml:id="p17" end="61.311s">pas des premiers répondants, mais<br />nous avons quand-même le devoir</p>
+      <p begin="61.4s" xml:id="p18" end="65.816s">d’intervenir conformément à notre<br />mandat et à nos pouvoirs et souvent,</p>
+      <p begin="65.95s" xml:id="p19" end="70.961s">nous devons collaborer étroitement<br />avec diverses autres organisations.</p>
+      <p begin="71.5s" xml:id="p20" end="74.408s">Dans un soucis d’amélioration<br />continue et d’adoption</p>
+      <p begin="74.5s" xml:id="p21" end="78.566s">de pratiques exemplaires,<br />TC entame un effort</p>
+      <p begin="78.6s" xml:id="p22" end="81.575s">plurayonable exostif de<br />mise en œuvre du SCI.</p>
+      <p begin="82.0s" xml:id="p23" end="84.574s">Ce qui lui permettra de<br />renforcer nos activités</p>
+      <p begin="84.7s" xml:id="p24" end="87.272s">d’intervention et de les<br />harmoniser à celle de</p>
+      <p begin="87.5s" xml:id="p25" end="91.123s">nombreux partenaires qui<br />utilisent déjà ce système</p>
+      <p begin="91.5s" xml:id="p26" end="94.186s">et favorisera aussi dans<br />l’ensemble des modes des</p>
+      <p begin="94.2s" xml:id="p27" end="97.086s">interventions plus efficaces<br />et mieux coordonnés.</p>
+      <p begin="97.5s" xml:id="p28" end="100.0s">Il s’agit d’une évolution<br />fascinante dans la manière</p>
+      <p begin="100.2s" xml:id="p29" end="104.136s">dont le ministère<br />intervient en cas d’incident</p>
+      <p begin="104.2s" xml:id="p30" end="107.243s">lié au transport et d’une<br />occasion de viser une</p>
+      <p begin="107.5s" xml:id="p31" end="110.106s">approche simplifié et commune<br />de la gestion d’incident.</p>
+      <p begin="110.5s" xml:id="p32" end="114.011s">La formation constituera un<br />volet essentiel de la réussite</p>
+      <p begin="114.5s" xml:id="p33" end="117.182s">de la mise en œuvre du SCI.<br />Le cours en ligne que vous</p>
+      <p begin="117.5s" xml:id="p34" end="121.418s">êtes sur le point de suivre<br />vous permettra de vous orienter</p>
+      <p begin="121.6s" xml:id="p35" end="125.975s">et de vous présenter les<br />principes de base du système.</p>
+      <p begin="126.1s" xml:id="p36" end="128.913s">Pour certains d’entre<br />vous, il s’agira d’un premier</p>
+      <p begin="129.0s" xml:id="p37" end="131.479s">pas vers l’approfondissement<br />de votre formation</p>
+      <p begin="131.6s" xml:id="p38" end="133.997s">en matière de SCI. Pour d’autres, ce cours</p>
+      <p begin="134.1s" xml:id="p39" end="137.596s">permettra de vous<br />sensibiliser davantage au SCI.</p>
+      <p begin="138.0s" xml:id="p40" end="142.47s">Profitez bien de ce cours d’apprentissage<br />en ligne, il facilitera l’application</p>
+      <p begin="142.9s" xml:id="p41" end="147.246s">des principes du SCI et il nous<br />aidera à renforcer nos compétences</p>
+      <p begin="147.5s" xml:id="p42" end="151.328s">et nos connaissances collectives<br />en vue de favoriser un système de</p>
+      <p begin="151.6s" xml:id="p43" end="156.142s">transport sécuritaire, propre, efficace<br />et sans danger pour les Canadiens.</p>
+      <p begin="156.5s" xml:id="p44" end="158.041s">Merci beaucoup et bon cours.</p>
+    </div>
+  </body>
+</tt>

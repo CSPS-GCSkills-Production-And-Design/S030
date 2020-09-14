@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:timeBase="media" xmlns:tts="http://www.w3.org/ns/ttml#styling" xml:lang="en" xmlns:ttm="http://www.w3.org/ns/ttml#metadata">
+  <head>
+    <metadata>
+      <ttm:title></ttm:title>
+    </metadata>
+    <styling>
+      <style xml:id="s0" tts:backgroundColor="black" tts:fontStyle="normal" tts:fontSize="16px" tts:fontFamily="sansSerif" tts:color="white" />
+    </styling>
+    <layout>
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="start" xml:id="topLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="start" xml:id="centerLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="start" xml:id="bottomLeft" />
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="center" xml:id="topCenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="center" xml:id="centerСenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="center" xml:id="bottomCenter" />
+      <region tts:extent="80% 40%" tts:origin="10% 10%" tts:displayAlign="before" tts:textAlign="end" xml:id="topRight" />
+      <region tts:extent="80% 40%" tts:origin="10% 30%" tts:displayAlign="center" tts:textAlign="end" xml:id="centerRight" />
+      <region tts:extent="80% 40%" tts:origin="10% 50%" tts:displayAlign="after" tts:textAlign="end" xml:id="bottomRight" />
+    </layout>
+  </head>
+  <body style="s0">
+    <div>
+      <p begin="1.0s" xml:id="p0" end="3.0s">Hello/Bonjour,</p>
+      <p begin="3.1s" xml:id="p1" end="4.5s">My name is Donald Roussel.</p>
+      <p begin="5.0s" xml:id="p2" end="8.4s">I’m the Associate Assistant Deputy Minister<br />Safety and Security here at Transport.</p>
+      <p begin="9.0s" xml:id="p3" end="14.0s">Transport Canada is very pleased to<br />be launching the I-100 introduction to the</p>
+      <p begin="14.1s" xml:id="p4" end="16.6s">Incident Command<br />System e-Learning courses.</p>
+      <p begin="18.0s" xml:id="p5" end="24.5s">The Incident Command System or ICS is<br />an internationally recognized proven system</p>
+      <p begin="24.6s" xml:id="p6" end="30.0s">used for responding to wide range of <br />incidents regardless of scale and complexity.</p>
+      <p begin="31.0s" xml:id="p7" end="37.1s">One of the hallmark features of this<br />system is its standardization which allows</p>
+      <p begin="37.3s" xml:id="p8" end="41.9s">personnel from many different organizations<br />to respond collaboratively under one</p>
+      <p begin="42.8s" xml:id="p9" end="48.0s">common consolidated plan speaking common<br />languages having a common understanding of</p>
+      <p begin="48.2s" xml:id="p10" end="55.0s">roles and responsibility and using a<br />common process to address the needs of an incident.</p>
+      <p begin="55.5s" xml:id="p11" end="61.0s">You may often hear that TC<br />personnel are not first responders</p>
+      <p begin="61.6s" xml:id="p12" end="66.9s">yet we do have the duty to respond in<br />keeping with our mandate and authorities.</p>
+      <p begin="67.0s" xml:id="p13" end="74.1s">and often need to work interoperably outside a variety of other organizations.</p>
+      <p begin="74.6s" xml:id="p14" end="80.0s">In the spirit of continuous improvement and<br />embracing best practices, TC is beginning</p>
+      <p begin="80.1s" xml:id="p15" end="84.0s">a comprehensive multiyear<br />ICS implementation efforts.</p>
+      <p begin="84.8s" xml:id="p16" end="91.4s">This will allow TC to strengthen and align<br />our response activities with the growing</p>
+      <p begin="91.8s" xml:id="p17" end="98.4s">numbers of partners already using ICS<br />and will unable most/more effective and</p>
+      <p begin="98.8s" xml:id="p18" end="102.0s">coordinated responses<br />across all modes.</p>
+      <p begin="102.9s" xml:id="p19" end="109.2s">This represent an exciting evolution in<br />the way that our department respond to transport</p>
+      <p begin="109.3s" xml:id="p20" end="115.5s">related event and an opportunity to move<br />toward a common streamline approach to</p>
+      <p begin="115.8s" xml:id="p21" end="117.0s">incident management.</p>
+      <p begin="117.1s" xml:id="p22" end="122.8s">Training will be a critical factor for<br />the successful implementation of ICS.</p>
+      <p begin="122.9s" xml:id="p23" end="127.0s">The e-Learning course you are about to take<br />will provide you with an orientation and</p>
+      <p begin="127.2s" xml:id="p24" end="130.2s">introduce you to the basic of the system.</p>
+      <p begin="131.0s" xml:id="p25" end="136.2s">For some of you, this course will be<br />first step towards further ICS training.</p>
+      <p begin="136.5s" xml:id="p26" end="143.0s">For some others, this will provide you<br />with the familiarization you need to be ICS aware.</p>
+      <p begin="143.5s" xml:id="p27" end="148.3s">Please enjoy this e-Learning courses<br />it will help you apply the principals of</p>
+      <p begin="148.5s" xml:id="p28" end="154.2s">ICS and build our collective skills and<br />knowledge to ensure a safe, secure, clean</p>
+      <p begin="154.5s" xml:id="p29" end="157.4s">and efficient transportation<br />system for Canadians.</p>
+      <p begin="157.6s" xml:id="p30" end="161.0s">Thank you very much<br />and enjoy your courses.</p>
+    </div>
+  </body>
+</tt>
