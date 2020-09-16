@@ -57,7 +57,7 @@ define([
         if (certObj) {
             // certObj.addEventListener("click",print_svg(this));
             // $("#b9549ee9-3cef-4068-8c2b-6ab9c802a5d7").click(print_svg(this));
-            var studentName = scorm.aScorm[1][1] || "Name, Surname",
+            var studentName = scorm.api.doLMSGetValue("cmi.core.student_name") || "Name, Surname",
                 ChangeStudentName = document.getElementById("CertificateName"),
                 ChangeDate = document.getElementById("CertificateDate");
             ChangeStudentName.innerHTML = studentName;
