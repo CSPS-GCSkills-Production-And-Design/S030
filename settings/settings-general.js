@@ -8,5 +8,7 @@ define({
   "seriesTitle_en": "Introduction to Incident Command System",
   "seriesTitle_fr": "Introduction au Système de Commandement d'Intervention",
   "addToolboxPage": [],
-  "editMode": true
+  "editMode": false,
+  "showGlossary": true,
+	"showResources": false
 });
